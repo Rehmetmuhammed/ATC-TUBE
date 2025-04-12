@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    position: sticky;
+    background-color:rgb(219, 146, 12);
+
+    
+}
+
+.logo img {
+    height: 30px;         /* Control size */
+    width: auto;          /* Keep aspect ratio */
+   
+}
+
+.logo {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+   
+   
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+
+
+/* About Section */
+.about-section {
+    padding: 2rem 6%;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    flex: 1.6;
+    color: #333;
+    min-width: 300px;
+  }
+  
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .stats-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .stats-list li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .stats-list i {
+    font-size: 18px;
+    min-width: 20px;
+  }
+  
+  .stats-list .fa-telegram {
+    color: #007bff;
+  }
+  
+  .stats-list .fa-youtube {
+    color: red;
+  }
+  
+  .stats-list .fa-users {
+    color: black;
+  }
+  
+  .stats-list strong {
+    color: #333;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+  }
+  
+  .about-image img {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/* Testimonials */
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 30px 5%;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    font-size: 30px;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card span {
+    font-weight: bold;
+    color: #3498db;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}

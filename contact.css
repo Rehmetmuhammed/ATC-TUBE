@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+    line-height: 1.6;
+  }
+  /* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    position: sticky;
+    background-color:rgb(219, 146, 12);
+
+    
+}
+
+.logo img {
+    height: 30px;         /* Control size */
+    width: auto;          /* Keep aspect ratio */
+   
+}
+
+.logo {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+   
+   
+}
+
+.nav-links a:hover {
+    color: white;
+}
+  
+  /* Contact Section */
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+    background: linear-gradient(to right, #acbbca, #633c06);
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: rgb(216, 211, 211);
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #07203b;
+  }
+  
+  .subtitle {
+    margin-bottom: 30px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Telegram Button */
+  .question-button {
+    margin: 30px 0;
+  }
+  
+  .question-button a button {
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .question-button a button:hover {
+    background-color: #006699;
+  }
+  
+  /* Social Icons & Location */
+  .extra-info {
+    margin-top: 40px;
+  }
+  
+  .extra-info h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .social-icons a {
+    font-size: 20px;
+    color: #007bff;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #0056b3;
+  }
+  
+  .location {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Footer */
+footer {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+   
+}
